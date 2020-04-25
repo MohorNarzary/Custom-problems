@@ -1,0 +1,11 @@
+Problem Statement :
+There are 'N' new joinees in an organization which has 5 working days per week. The biometric configuration for the new joinees were assigned to a new System Administrator. Having recently joined the organization, the System admin was unaware of the organization's authentication server framework and due to his blatant decision to not consult with the previous administrator first, he caused a misconfiguration. As a result, the attendance records of the new joinees(for their probation period) failed to commit to the database. You are one of the joinees. You remember that each of the 'N' joinees took 0-1 leave alternatively on a per week basis. Also, if the first joinee started his/her first week in the organization with 0 leave, then the adjacent joinee started his/her first week with 1 leave and so on. You know that this information is reliable because you remeber the seating arrangement of each joinee respective to their computer systems.
+This alternative leave pattern continued from the first working day of the first probationary month until the last working day of the last probationary month.
+Write a code to calculate attendance record for each employee based on your memory and impress your team lead.
+
+Constraints:
+1>The probationary period was from January to March(2020).
+2>Your boss really likes his reports in percentages. But, there's a catch(three, actually).
+ 2.1>100% attendance for each joinee
+ 2.2>97% of the attendance for each joinee
+ 2.3>91% of the 97% attendance for each joinee
